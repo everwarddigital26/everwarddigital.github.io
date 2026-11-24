@@ -330,3 +330,54 @@ button:focus-visible {
     margin-top: auto;
     padding-top: 15px;
 }
+
+/* About Page */
+
+.about-content {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 25px;
+}
+
+.about-content h2 {
+    color: var(--olive);
+    margin-bottom: 25px;
+}
+
+.meaning-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: var(--light-green);
+    padding: 60px 30px;
+}
+
+.meaning-section div {
+    max-width: 650px;
+}
+
+.meaning-section h2 {
+    color: var(--olive);
+    margin-bottom: 20px;
+}
+
+.about-logo {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .meaning-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .about-logo {
+        width: 160px;
+        height: 160px;
+    }
+}
