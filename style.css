@@ -249,3 +249,19 @@ button:focus-visible {
         font-size: 0.9rem;
     }
 }
+/* Business Logo */
+
+.logo {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 85px;
+        height: 85px;
+    }
+}
