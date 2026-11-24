@@ -265,3 +265,33 @@ button:focus-visible {
         height: 85px;
     }
 }
+
+/* Services Page */
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--olive);
+    margin-bottom: 15px;
+}
+
+.service-card ul {
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.service-card li {
+    margin-bottom: 8px;
+}
+
+.alternate {
+    background-color: var(--light-green);
+}
+
+.alternate .service-card {
+    background-color: var(--white);
+}
+
+.service-card {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
